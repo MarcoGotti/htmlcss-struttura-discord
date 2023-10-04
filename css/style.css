@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* header */
@@ -11,8 +12,11 @@
     padding: .5rem;
 }
 
+.header-bar{
+    justify-content: space-between;
+}
+
 .logo,.menu,.login{
-    align-self: center;
     padding: .5rem;
 }
 
@@ -37,6 +41,19 @@
     margin: auto;
 }
 
+/* footer */
+
+.footer-low{
+    border-top: 1px solid white;
+}
+
+.lower-strip{
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+
+
 
 
 /* Utility */
@@ -55,6 +72,14 @@
 
 main>div{
     padding: 2rem;
+}
+
+.footer-top>div{
+    padding: 2rem;
+}
+
+.footer-low{
+    padding-top: 1rem;
 }
 
 .col-2{
@@ -103,6 +128,10 @@ main>div{
     height: 20rem;
 }
 
+.debug footer [class*="col-"]{
+    height: 20rem;
+}
+
 .debug .main-section{
     background-color: #00008b;
 }
@@ -115,14 +144,38 @@ main>div{
     background-color: #d3d3d3;
 }
 
-.debug main .col-8{
+.debug .col-7{
     background-color: #1e90ff;
 }
 
-.debug .col-4{
+.debug .col-5{
     background-color: #ffc0cb;
 }
 
 .debug .tecno{
     background-color: #228b22;
+}
+
+.debug .col-4{
+    background-color: #f08080;
+}
+
+.debug footer .col-2{
+    background-color: #20b2aa;
+    border: 1px dashed white;
+}
+
+.debug footer{
+    background-color: #23272a;
+}
+
+.debug .lower-strip{
+    background-color: #7fffd4;
+    
+}
+
+.debug .logo-footer, .debug .registration{
+    background-color: #eda8b4;
+    border: 1px dashed black;
+    padding: 4px;
 }
