@@ -110,6 +110,10 @@
     height: 20rem;
 }
 
+.debug .conforts{
+    background-color: #d3d3d3;
+}
+
 .debug main .col-8{
     background-color: #1e90ff;
 }
