@@ -11,10 +11,6 @@
     padding: .5rem;
 }
 
-.d-flex{
-    display: flex;
-}
-
 .logo,.menu,.login{
     align-self: center;
     padding: .5rem;
@@ -51,14 +47,14 @@
     margin: auto;
 }
 
-.site-main>section{
-    padding: 2rem;
-}
-
 .row{
     display: flex;
     flex-wrap: wrap;
     margin: 0 -1rem;
+}
+
+main>div{
+    padding: 2rem;
 }
 
 .col-2{
@@ -85,18 +81,26 @@
     width: calc((100% / 12) * 10);
 }
 
+.col-12{
+    width: 100%;
+}
+
 /* Debug */
 .debug header{
     background-color: #add8e6;
 }
 
 
-.debug .d-flex{
+.debug .header-bar{
     background-color: #d9a41f;
 }
 
 [class*="col-"]{
     border: 1px dashed black;
+}
+
+.debug main [class*="col-"]{
+    height: 20rem;
 }
 
 .debug .main-section{
@@ -107,11 +111,7 @@
     background-color: #ee82ee;
 }
 
-.debug main [class*="col-"]{
-    height: 20rem;
-}
-
-.debug .conforts{
+.debug .conforts, .debug .tecnology{
     background-color: #d3d3d3;
 }
 
@@ -121,4 +121,8 @@
 
 .debug .col-4{
     background-color: #ffc0cb;
+}
+
+.debug .tecno{
+    background-color: #228b22;
 }
