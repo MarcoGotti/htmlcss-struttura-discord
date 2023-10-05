@@ -70,16 +70,13 @@
     margin: 0 -1rem;
 }
 
-main>div{
-    padding: 2rem;
-}
-
-.footer-top>div{
+main>div, .footer-top{
     padding: 2rem;
 }
 
 .footer-low{
-    padding-top: 1rem;
+    padding: 1rem 2rem 0 2rem;
+
 }
 
 .col-2{
